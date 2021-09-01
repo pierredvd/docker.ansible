@@ -1,4 +1,4 @@
-## _Environnement de developpement PHP7, Node.js 10, Postgresql 11 dockerisé_
+## _Environnement de developpement Ansible sous docker_
 
 ## Contruire le contener
 ```bash
