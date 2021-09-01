@@ -1,0 +1,23 @@
+---
+all:
+  vars:
+    global_all: 42
+  children:
+    group3:
+      vars:
+        testvar: a
+        ansible_group_priority: 10
+      hosts:
+        primary_host:
+          ansible_host: 127.0.0.1
+          ansible_port: 80
+        secondary_host:
+          ansible_host: 127.0.0.1
+    group4:
+      vars:
+        testvar: b
+      hosts:
+        third_host:
+          ansible_host: 127.0.0.1
+        fourth_host:
+          ansible_host: 127.0.0.1
